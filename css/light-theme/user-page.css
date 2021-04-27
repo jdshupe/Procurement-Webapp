@@ -1,0 +1,100 @@
+colors {
+  color: #383D3B;
+  color: #EEE5E9;
+  color: #7C7C7C;
+  color: #92DCE5;
+  color: #52DEE5;
+}
+
+/* Layout Formatting */
+#options-panel {
+  width: 21%;
+  height: 98%;
+  display: inline-block;
+  min-width: 205px;
+  vertical-align: top;
+  margin: 0.5%;
+}
+#jobs {
+  width: 99%;
+  height: 49.5%;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#options {
+  width: 99%;
+  height: 49.5%;
+  float: left;
+}
+#options form {
+  text-align: right;
+}
+#options form input {
+  width: 60%;
+}
+#options form #submit {
+  width: 30%;
+}
+#options form #submit:hover {
+  
+  background-color: #383D3B80;
+  color: #EEE5E9;
+}
+
+
+#data {
+  width: 76%;
+  height: 98%;
+  float: right;
+  overflow-y: auto;
+  vertical-align: top;
+}
+
+.budget-cost,
+.po-cost,
+.variance {
+  width: 100px;
+}
+.budget-quantity,
+.po-quantity{
+  width: 200px;
+}
+td.budget-quantity,
+td.budget-cost,
+td.po-quantity,
+td.po-cost,
+td.variance{
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* table line styling */
+#jobs input {
+  border: none;
+  text-align: left;
+}
+#jobs input:hover {
+  background-color: #383D3B;
+  color: #EEE5E9;
+}
+#jobs a {
+  color: #383D3B;
+}
+#jobs a:hover {
+  color: inherit;
+}
+
+#options input{
+  width: 50%;
+}
+
+
+/* rules for differing screen sizes */
+@media screen and (max-width: 1284px) {
+  #data {
+    width: calc(99% - 250px);
+  }
+}
+

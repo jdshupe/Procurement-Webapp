@@ -1,0 +1,13 @@
+.content-container {
+  float: left;
+}
+
+#vendor-select {
+  width: 24%;
+  height: 99%;
+}
+
+#map  {
+  width: 74%;
+  height: 99%;
+}

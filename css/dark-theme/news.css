@@ -1,0 +1,16 @@
+colors {
+  color: #383D3B;
+  color: #EEE5E9;
+  color: #7C7C7C;
+  color: #92DCE5;
+  color: #52DEE5;
+}
+
+main {
+  margin: 2%;
+  max-width: none;
+  max-height: fit-content;
+  height: auto;
+  padding: 10px;
+  min-height: 500px;
+}

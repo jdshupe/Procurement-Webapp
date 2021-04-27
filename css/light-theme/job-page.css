@@ -1,0 +1,113 @@
+colors {
+  color: #383D3B;
+  color: #EEE5E9;
+  color: #7C7C7C;
+  color: #92DCE5;
+  color: #52DEE5;
+}
+
+
+
+.main-display {
+  width: 84%;
+  height: 99%;
+  float: left;
+}
+
+#report-selection {
+  width:  14%;
+  height: 99.5%;
+  float: left;
+}
+#report-display {
+  width: 84%;
+  height: calc(97% - 50px);
+  float: left;
+  overflow-y: auto;
+}
+#filter-bar {
+  width: 84%;
+  height: 50px;
+  float: left;
+}
+
+.report-button input:hover {
+  background-color: #383D3B;
+  color: #EEE5E9;
+}
+
+.quantity {
+  width: 50px;
+  padding-right: 25px;
+}
+.times-purchased {
+  width: 50px;
+  padding-right: 800px;
+}
+
+#filter-bar-form {
+  width: 100%;
+  float: left;
+}
+#filter-bar-form input {
+  width: 200px;
+}
+#submit {
+  float: right;
+}
+
+.budgeted-amount-cost {
+  width: 65px;
+  padding-right: 25px;
+}
+.budgeted-amount-quantity {
+  width: 65px;
+  padding-right: 25px;
+}
+.budgeted-amount-total {
+  width: 65px;
+  padding-right: 800px;
+}
+
+.item-button {
+  width: 100%;
+  border: none;
+  padding: inherit;
+  padding-left: 5px;
+  text-align: left;
+  margin: inherit;  
+  background-color: transparent;
+  font-family: inherit;
+  font-size: medium;
+}
+
+.main-info:nth-child(4n-3) {  
+  background-color: #EEE5E970;
+}
+
+.main-info:hover {
+  background-color: #383D3B80;
+  color: #EEE5E9;
+}
+.po-table,
+.po {
+  width: 80%;
+  margin-left: 20%;
+}
+.po-table {
+  border-left: #383D3B 2px solid;
+}
+
+#main-data {
+  height: 95%;
+  overflow-y: scroll;
+}
+#totals-row {
+  height: 5%;
+  vertical-align: bottom;
+}
+
+#filter-bar-form input {
+  margin-top: .5%;
+  margin-left: 2px;
+}

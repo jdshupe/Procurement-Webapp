@@ -1,0 +1,133 @@
+colors {
+  color: #383D3B;
+  color: #EEE5E9;
+  color: #7C7C7C;
+  color: #92DCE5;
+  color: #52DEE5;
+}
+
+/* Layout Formatting */
+#options-panel {
+  width: 22%;
+  height: 99%;
+  float: left;
+  min-width: 205px;
+  margin: 0.5%;
+}
+
+#jobs,
+#options {
+  width: 100%;
+  height: 48%;
+  float: left;
+}
+
+#jobs {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 6%;
+}
+#options form {
+  text-align: right;
+}
+#options form input {
+  width: 60%;
+}
+#options form #submit {
+  width: 30%;
+}
+#options form #submit:hover {
+  
+  background-color: #383D3B80;
+  color: #EEE5E9;
+}
+
+
+#data-panel {
+  width: 76%;
+  height: 99%;
+  float: right;
+  margin: 0.5%;
+}
+
+#data {
+  width: 99%;
+  height: 99%;
+  float: left;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.bud-total,
+.po-total,
+.item-name {
+  border-right: 1px black solid;
+}
+
+/* table line styling */
+#jobs input {
+  border: none;
+  text-align: left;
+}
+#jobs input:hover {
+  background-color: #383D3B;
+  color: #EEE5E9;
+}
+#jobs a {
+  color: #383D3B;
+  padding-left: 10px;
+}
+#jobs a:hover {
+  color: inherit;
+}
+
+#options input{
+  width: 50%;
+}
+
+
+/* rules for differing screen sizes */
+@media screen and (max-width: 1284px) {
+  #data {
+    width: calc(99% - 250px);
+  }
+}
+
+.content-container {
+  margin: unset;
+}
+#table-data {
+  height: 95%;
+  width: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.item-name {
+  width: 27%;
+  min-width: 27%;
+  max-width: 27%;
+}
+.po-quantity, .var-quantity {
+  width: 8%;
+  min-width: 8%;
+  max-width: 8%;
+}
+.bud-quantity {
+  width: 7%;
+  min-width: 7%;
+  max-width: 7%;
+}
+.bud-cost, .bud-total, .po-cost, .po-total, .var-total {
+  width: 9%;
+  min-width: 9%;
+  max-width: 9%;
+}
+
+.dollars {
+  width: 1%;
+  min-width: 1%;
+  max-width: 1%;
+  border-left: 1px black solid;
+  padding-left: 2px;
+}

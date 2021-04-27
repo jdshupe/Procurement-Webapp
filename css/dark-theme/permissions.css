@@ -1,0 +1,40 @@
+#user-permissions-editor {
+  overflow: auto;
+  background: rgba(238, 229, 233, .90);
+  height: 97.5%;
+}
+
+#user-permissions-editor > table {
+  width: fit-content;
+  height: auto;
+  background-color: transparent;
+}
+
+th.rotate {
+  height: 140px;
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform: 
+    translate(34px, 49px)
+    rotate(315deg);
+  width: 30px;
+}
+
+th.rotate > div > span {
+  border-bottom: 1px solid black;
+  padding: 5px 12px;
+}
+
+td {
+  border-right: 1px solid black;
+}
+
+th {
+  width: 50px;
+}
+
+#spacer-column {
+  width: unset;
+}

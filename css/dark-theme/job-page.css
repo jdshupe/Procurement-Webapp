@@ -1,0 +1,204 @@
+colors {
+  color: #383D3B;
+  color: #EEE5E9;
+  color: #7C7C7C;
+  color: #92DCE5;
+  color: #52DEE5;
+}
+
+#report-selection {
+  width:  14%;
+  height: 99.5%;
+  float: left;
+}
+#report-display {
+  width: 84%;
+  height: calc(97% - 50px);
+  float: left;
+  overflow-y: auto;
+  position: relative;
+  float: left;
+}
+#filter-bar {
+  width: 84%;
+  height: 50px;
+  float: left;
+  overflow: hidden;
+}
+
+.report-button input:hover {
+  background-color: #383D3B;
+  color: #EEE5E9;
+}
+.description {
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+}
+.quantity {
+  width: 12%;
+  min-width: 12%;
+  max-width: 12%;
+  padding-right: 25px;
+}
+.times-purchased {
+  width: 12%;
+  min-width: 12%;
+  max-width: 12%;
+  padding-right: 25px;
+}
+.purchase-price {
+  width: 40%;
+  min-width: 40%;
+  max-width: 40%;
+  padding-right: 30%;
+}
+
+
+#filter-bar-form {
+  width: 100%;
+  float: left;
+}
+#filter-bar-form input {
+  width: 200px;
+}
+#submit {
+  float: right;
+}
+
+.budgeted-amount-description {
+  width: 30%;
+  min-width: 30%;
+  max-width: 30%;
+}
+.budgeted-amount-cost {
+  width: 10%;
+  min-width: 10%;
+  max-width: 10%;
+  padding-right: 25px;
+}
+.budgeted-amount-quantity {
+  width: 10%;
+  min-width: 10%;
+  max-width: 10%;
+  padding-right: 25px;
+}
+.budgeted-amount-total {
+  width: 60%;
+  min-width: 60%;
+  max-width: 60%;
+  padding-right: 40%;
+}
+
+.item-button {
+  width: 100%;
+  border: none;
+  padding: inherit;
+  padding-left: 5px;
+  text-align: left;
+  margin: inherit;  
+  background-color: transparent;
+  font-family: inherit;
+  font-size: medium;
+}
+
+.main-info:nth-child(4n-3) {  
+  background-color: #EEE5E970;
+}
+
+.main-info:hover {
+  background-color: #383D3B80;
+  color: #EEE5E9;
+}
+.po-table {
+  border: none;
+}
+#totals-row {
+  height: 5%;
+  box-shadow: 0px -5px 10px black;
+}
+
+#filter-bar-form input {
+  margin-top: .5%;
+  margin-left: 2px;
+}
+
+/* Pop up Class Structure */
+.rental-details-popup {
+  visibility: hidden;
+  background-color: rgba(0,0,0,.80);
+  border: #383D3B 2px inset;
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px rgba(0,0,0,.70);
+  padding: 10px;
+  color: #EEE5E9;
+}
+.popup-content {
+  visibility: hidden;
+}
+
+.rental-details-popup.active {
+  visibility: visible;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 20%;
+  height: 40%;
+  margin: 0 auto;
+}
+.popup-content.active {
+  visibility: visible;
+}
+
+.close {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 0px 2px;
+}
+
+/* Popup Form Input Positioning */
+  #id-input-div {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  #id-input {
+    width: 10ch;
+    margin: auto;
+  }
+  #id-label {
+    width: unset;
+  }
+
+  #notes-label {
+    float: left;
+  }
+  #notes-input {
+    float: left;
+    width: 100%;
+    height: 5ch;
+  }
+
+  label {
+    width: 50%;
+    min-width: auto;
+    float: left;
+    text-align: left;
+  }
+
+  #po-input-div {
+    margin-top: 50px;
+  }
+
+
+/* Subtable for Purchased Amounts */
+  .sub-table {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .90) inset;
+  }
+  .sub-table .description {
+    padding-left: 5%;
+  }
+  .sub-table tr {
+    border: none;
+  }

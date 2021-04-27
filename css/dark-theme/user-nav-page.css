@@ -1,0 +1,33 @@
+.row-1{
+  height: auto;
+  height: 33%;
+  padding: 0%;
+  margin: 1%;
+}
+
+.button {
+  border: black 2px solid;
+  width: 19%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,.9);
+  padding: 10px;
+  margin: inherit;
+  float: left;
+  color: black;
+  font-size: 24pt;
+  text-align: left;
+}
+.row-1 a {
+  color: black;
+  height: 100%;
+}
+.row-1 a:hover {
+  color: black;
+}
+.button:hover {
+  border: outset;
+}
+.button:active {
+  border: inset;
+}

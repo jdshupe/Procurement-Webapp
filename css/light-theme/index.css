@@ -1,0 +1,12 @@
+main.login-form button{
+  position: relative; 
+  bottom: 30px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 300px;
+  padding: 5px;
+  height: 200px;
+}
